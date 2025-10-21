@@ -35,6 +35,14 @@ fi
 chsh -s "$FISH_PATH"
 echo "✅ 默认 Shell 已切换为 fish。新的终端会话将使用 fish。"
 
+echo "字体安装：建议安装 Nerd Font 以获得更好的终端显示效果。"
+# 安装 FiraCode Nerd Font
+#brew install --cask font-fira-code-nerd-font
+
+# 安装 Meslo Nerd Font
+ brew install --cask font-meslo-lg-nerd-font
+echo "✅ 字体安装完成。请在 iTerm2 设置中选择该字体以获得最佳显示效果。"
+
 # --- 2. 配置 fish shell (使用 fish 语法) ---
 echo "--- 3. 配置 fish shell (config.fish) 和 ripgrep 配置 ---"
 
